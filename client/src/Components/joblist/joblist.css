@@ -1,0 +1,44 @@
+.filterbox{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    border-bottom: 3px solid grey;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding: 10px;
+}
+
+select{
+    width: 230px;
+    height: 30px;
+    border-radius: 6px;
+    color: grey;
+    border: 2px solid cornflowerblue;
+}
+
+.outer{
+    border: 1px solid red;
+    display: flex;
+    width: 320px;
+    height: 120px;
+}
+
+.imgdiv{
+
+    width: 80px;
+    height: 110px;
+    border: 1px solid black;
+}
+img{
+    width: 80px;
+}
+
+.joblist{
+    width: 97%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px
+
+}

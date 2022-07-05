@@ -5,12 +5,14 @@ const router = express.Router();
 //get all the jobs for checking only
 router.get("/get", async(req,res)=>{
     try {
-        const job = await Job.find().lean().exec().pretty();
+        const job = await Job.find().lean().exec();
         return res.status(201).send({job:job});
     } catch (error) {
         return res.status(500).send({message: error.message});
     }
 });
+
+
 
 router.get("", async (req, res) => {
     try {
@@ -125,6 +127,11 @@ router.get("", async (req, res) => {
     catch (error) {
         res.send(error)
     }
+})
+
+router.get("/:id", async(req,res)=>{
+    const job = await Job.findById(req.params.id).lean().exec();
+    return res.status(201).send({job:job})
 })
 
 

@@ -1,0 +1,26 @@
+.MainNav{
+    width: 99%;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    /* border: 1px solid blue; */
+}
+
+.company{
+    color: antiquewhite;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.Home{
+    margin-top: 24px;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+    border-color: antiquewhite;
+    color: antiquewhite;
+    border: 1px solid white;
+}
