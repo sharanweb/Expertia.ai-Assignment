@@ -1,0 +1,259 @@
+[
+    {
+      "name": "IBM",
+      "logo": "https://animationvisarts.com/wp-content/uploads/2021/01/IBM-Logo-Design-1972-present.png",
+      "role": "Frontend Developer",
+      "ctc": "7",
+      "experience": "Entry Level",
+      "location": "Bangalore",
+      "openinigs": 2,
+      "process":"Online Test + 2 Tech Rounds + HR Round",
+      "description": "We are looking for a Frontend Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "IBM",
+        "logo": "https://animationvisarts.com/wp-content/uploads/2021/01/IBM-Logo-Design-1972-present.png",
+        "role": "Backend Developer",
+        "ctc": "7",
+        "experience": "Entry Level",
+        "location": "Bangalore",
+        "openinigs": 2,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Backend Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "IBM",
+        "logo": "https://animationvisarts.com/wp-content/uploads/2021/01/IBM-Logo-Design-1972-present.png",
+        "role": "Full Stack Developer",
+        "ctc": "10",
+        "experience": "Entry Level",
+        "location": "Bangalore",
+        "openinigs": 2,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "IBM",
+        "logo": "https://animationvisarts.com/wp-content/uploads/2021/01/IBM-Logo-Design-1972-present.png",
+        "role": "Frontend Developer",
+        "ctc": "15",
+        "experience": "Mid Senior Level",
+        "location": "Bangalore",
+        "openinigs": 2,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Frontend Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "IBM",
+        "logo": "https://animationvisarts.com/wp-content/uploads/2021/01/IBM-Logo-Design-1972-present.png",
+        "role": "Backend Developer",
+        "ctc": "14",
+        "experience": "Mid Senior Level",
+        "location": "Bangalore",
+        "openinigs": 2,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Backend Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "IBM",
+        "logo": "https://animationvisarts.com/wp-content/uploads/2021/01/IBM-Logo-Design-1972-present.png",
+        "role": "Data Analyst",
+        "ctc": 6,
+        "experience": "Entry Level",
+        "location": "Bangalore",
+        "openinigs": 2,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "Interpreting data, analyzing results using statistical techniques. Developing and implementing data analyses, data collection systems and other strategies that optimize statistical efficiency and quality. Acquiring data from primary or secondary data sources and maintaining databases."
+    },
+    {
+        "name": "IBM",
+        "logo": "https://animationvisarts.com/wp-content/uploads/2021/01/IBM-Logo-Design-1972-present.png",
+        "role": "Data Analyst",
+        "ctc": 7,
+        "experience": "Senior Level",
+        "location": "Bangalore",
+        "openinigs": 2,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "Interpreting data, analyzing results using statistical techniques. Developing and implementing data analyses, data collection systems and other strategies that optimize statistical efficiency and quality. Acquiring data from primary or secondary data sources and maintaining databases."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Data Analyst",
+        "ctc": 21,
+        "experience": "Senior Level",
+        "location": "Chennai",
+        "openinigs": 2,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "Interpreting data, analyzing results using statistical techniques. Developing and implementing data analyses, data collection systems and other strategies that optimize statistical efficiency and quality. Acquiring data from primary or secondary data sources and maintaining databases."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Data Analyst",
+        "ctc": 5,
+        "experience": "Entry Level",
+        "location": "Chennai",
+        "openinigs": 2,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "Interpreting data, analyzing results using statistical techniques. Developing and implementing data analyses, data collection systems and other strategies that optimize statistical efficiency and quality. Acquiring data from primary or secondary data sources and maintaining databases."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Data Analyst",
+        "ctc": 13,
+        "experience": "Mid Senior Level",
+        "location": "Chennai",
+        "openinigs": 2,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "Interpreting data, analyzing results using statistical techniques. Developing and implementing data analyses, data collection systems and other strategies that optimize statistical efficiency and quality. Acquiring data from primary or secondary data sources and maintaining databases."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Frontend Developer",
+        "ctc": 6.5,
+        "experience": "Entry Level",
+        "location": "Chennai",
+        "openinigs": 2,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Frontend Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Frontend Developer",
+        "ctc": 13,
+        "experience": "Mid Senior Level",
+        "location": "Chennai",
+        "openinigs": 1,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Frontend Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Frontend Developer",
+        "ctc": 22,
+        "experience": "Senior Level",
+        "location": "Chennai",
+        "openinigs": 2,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Frontend Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Backend Developer",
+        "ctc": 22,
+        "experience": "Senior Level",
+        "location": "Chennai",
+        "openinigs": 3,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Backend Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Backend Developer",
+        "ctc": 6.5,
+        "experience": "Entry Level",
+        "location": "Chennai",
+        "openinigs": 4,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Backend Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Frontend Developer",
+        "ctc": 11,
+        "experience": "Mid Senior Level",
+        "location": "Chennai",
+        "openinigs": 3,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Backend Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Full Stack Developer",
+        "ctc": 16,
+        "experience": "Mid Senior Level",
+        "location": "Chennai",
+        "openinigs": 1,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Full Stack Developer",
+        "ctc": 9,
+        "experience": "Entry Level",
+        "location": "Chennai",
+        "openinigs": 5,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Urban Piper",
+        "logo": "https://photos.angel.co/startups/i/394392-1db7bac4092449eef2accd39a00f6dd9-medium_jpg.jpg?buster=1468662491",
+        "role": "Full Stack Developer",
+        "ctc": 25,
+        "experience": "Senior Level",
+        "location": "Chennai",
+        "openinigs": 1,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Tata Consulting Services",
+        "logo": "https://indiancompanies.in/wp-content/uploads/2020/05/TCS-Logo-Tata-consultancy-service.png",
+        "role": "Full Stack Developer",
+        "ctc": 21,
+        "experience": "Senior Level",
+        "location": "Pune",
+        "openinigs": 1,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Tata Consulting Services",
+        "logo": "https://indiancompanies.in/wp-content/uploads/2020/05/TCS-Logo-Tata-consultancy-service.png",
+        "role": "Full Stack Developer",
+        "ctc": 4,
+        "experience": "Entry Level",
+        "location": "Pune",
+        "openinigs": 11,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Tata Consulting Services",
+        "logo": "https://indiancompanies.in/wp-content/uploads/2020/05/TCS-Logo-Tata-consultancy-service.png",
+        "role": "Full Stack Developer",
+        "ctc": 14,
+        "experience": "Mid Senior Level",
+        "location": "Pune",
+        "openinigs": 1,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+    {
+        "name": "Tata Consulting Services",
+        "logo": "https://indiancompanies.in/wp-content/uploads/2020/05/TCS-Logo-Tata-consultancy-service.png",
+        "role": "Backend Developer",
+        "ctc": 14,
+        "experience": "Mid Senior Level",
+        "location": "Pune",
+        "openinigs": 1,
+        "process":"Online Test + 2 Tech Rounds + HR Round",
+        "description": "We are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment."
+    },
+        
+      
+      
+    
+]
