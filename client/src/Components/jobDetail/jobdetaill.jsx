@@ -25,7 +25,7 @@ export const Jobdetail = ()=>{
             <h1>Job Description</h1>
             <div className="subdiv">
             <div className="imagediv">
-                <img src={item.logo} alt="abcd"></img>
+                <img src={item.logo} alt="abcd" className="bigimage"></img>
             </div>
             <div className="description">
                 <h2 className="title">{item.name}</h2>

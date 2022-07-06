@@ -2,6 +2,8 @@ const express = require("express");
 const Job = require("../models/job.model");
 const router = express.Router();
 
+
+
 //get all the jobs for checking only
 router.get("/get", async(req,res)=>{
     try {
@@ -12,6 +14,8 @@ router.get("/get", async(req,res)=>{
     }
 });
 
+
+//get job by id
 router.get("/:id", async(req,res)=>{
     const job = await Job.findById(req.params.id).lean().exec();
     return res.status(201).send({job:job})
