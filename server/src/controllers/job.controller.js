@@ -12,6 +12,11 @@ router.get("/get", async(req,res)=>{
     }
 });
 
+router.get("/:id", async(req,res)=>{
+    const job = await Job.findById(req.params.id).lean().exec();
+    return res.status(201).send({job:job})
+})
+
 
 
 router.get("", async (req, res) => {
@@ -128,13 +133,6 @@ router.get("", async (req, res) => {
         res.send(error)
     }
 })
-
-router.get("/:id", async(req,res)=>{
-    const job = await Job.findById(req.params.id).lean().exec();
-    return res.status(201).send({job:job})
-})
-
-
 
 
 module.exports = router;

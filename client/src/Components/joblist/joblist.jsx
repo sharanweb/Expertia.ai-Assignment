@@ -13,7 +13,7 @@ export const Joblist = ()=>{
     const search = useLocation().search;
 
     const page = new URLSearchParams(search).get("page") || 1;
-    const pagesize = new URLSearchParams(search).get("pagesize") || 6;
+    const pagesize = new URLSearchParams(search).get("pagesize") || 9;
     const role = new URLSearchParams(search).get("role") || "all";
     const ctc = new URLSearchParams(search).get("ctc") || 0;
     const location = new URLSearchParams(search).get("location") || "all";
@@ -27,13 +27,22 @@ export const Joblist = ()=>{
             setPagetotal(res.data.totalPages)
         }).catch(err => console.log(err))
     }
-    console.log(data);
+    // console.log(data);
+
+    let numpages = [];
+    for(let i=1; i<=Math.ceil(pagetotal); i++){
+        numpages.push(i);
+    }
+    console.log(numpages)
 
     useEffect(()=>{
         getData();
     },[page, role, location, experience, ctc])
     return(
         <div className="listcontainer">
+            <div className="ad">
+                Right Job at Right Place
+            </div>
             <div className="filterbox">
                 <div className="role">
                 <select name="jobRoles" onChange={(e)=>{
@@ -79,16 +88,30 @@ export const Joblist = ()=>{
                 {
                     data.map((el)=>{
                         return(
-                            <div className="outer">
+                            <Link to={`/jobs/${el._id}`}>
+                            <div className="outer" key={el._id}>
                                 <div className="imgdiv">
                                     <img src={el.logo}></img>
                                 </div>
-                                <div className="description">
-                                   <h4>{el.name}</h4>
-                                   <p>{el.role}</p>
-                                   <p>{el.location}</p>
+                                <div className="description" key={el._id}>
+                                   <h4 className="thick">{el.name}</h4>
+                                   <p className="thin">Role:{el.role}</p>
+                                   <p className="thin">Location:{el.location}</p>
+                                   <p className="thin">Experirnce:{el.experience}</p>
                                 </div>
                             </div>
+                            </Link>
+                        )
+                    })
+                }
+            </div>
+            <div className="paginationbox">
+                {
+                    numpages.map((el)=>{
+                        return(
+                            <button onClick={()=>{
+                                Navigate(`/?page=${el}&pagesize=${pagesize}&role=${role}&ctc=${ctc}&location=${location}&experience=${experience}`)
+                            }}>{el}</button>
                         )
                     })
                 }

@@ -18,17 +18,20 @@ select{
 }
 
 .outer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     width: 320px;
-    height: 120px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .imgdiv{
 
     width: 80px;
     height: 110px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 img{
     width: 80px;
@@ -37,8 +40,53 @@ img{
 .joblist{
     width: 97%;
     margin: auto;
+    margin-top: 15px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px
 
+}
+
+.thick{
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 5px;
+    text-align: left;
+    color: grey;
+    
+}
+.thin{
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 14px;
+    color: grey;
+}
+
+.description{
+    margin-left: 6px;
+}
+
+.paginationbox{
+    display: flex;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-left: 630px;
+}
+
+button{
+    margin-left: 5px;
+    border-color: cornflowerblue;
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+
+.ad{
+    color: grey;
+    text-align: centre;
+    font-size: 40px;
+    text-decoration: wavy;
+    font-style: italic;
 }
