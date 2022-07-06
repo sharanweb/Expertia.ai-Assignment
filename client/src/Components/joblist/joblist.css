@@ -90,3 +90,12 @@ button{
     text-decoration: wavy;
     font-style: italic;
 }
+
+.ctcrange{
+    display: flex;
+}
+
+.ctcranger{
+    padding: 0%;
+    margin: 0%;
+}

@@ -79,9 +79,13 @@ export const Joblist = ()=>{
                 </select>
                 </div>
                 <div className="ctcrange">
+                    <p className="ctcranger">CTC Range:</p>
+                    <p className="ctcranger">0</p>
                 <input type="range" className="salaryRange_inp" min="1" max="30" name="salary" onChange={(e) => {
                     Navigate(`/?page=${page}&pagesize=${pagesize}&role=${role}&ctc=${e.target.value}&location=${location}&experience=${experience}`)
                 }} />
+                <p className="ctcranger">30 LPA</p>
+
                 </div>
             </div>
             <div className="joblist">
